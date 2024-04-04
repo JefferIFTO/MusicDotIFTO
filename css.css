@@ -1,10 +1,38 @@
+/*Imagens */
+
+.matriz {
+    width: 550px; /* Largura da figura da matriz */
+    margin: 0 auto; /* Centraliza a figura da matriz */
+}
+.matriz img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da figura */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.familia {
+    width: 275px; /* Largura da figura da família */
+    float: right; /* Alinha a figura da família à direita */
+    margin-left: 20px; /* Adiciona espaço entre a figura da família e o conteúdo à esquerda */
+}
+.familia img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da figura */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
 /* Fonte Código*/
-html, body {
-    font-family: Verdana, Geneva, sans-serif; 
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    width: 940px;
+    margin: auto;
+    padding: 0;
+
+}  
 }
 
 h1, h2, h3 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding: 10px 0;
+
 }
 
 p {
@@ -14,18 +42,17 @@ p {
 
 /*Cores_fonte*/
 
-h1 {
+.TITULO {
     color: #3D3D3D;
     background-color: #E1EDF2;
-    /*padding: 20px;*/
-    background-size: auto;
-}
+    padding: 10px;
+    font-size: 32px;
 
+ }
+ .SUBTITULO{
 
+    border-bottom: 2px solid #000;
+    font-size: 24px;
+ }
 
-/*Borda Subtitulos*/
-
-h2 {
-    border-bottom: 1px solid #3D3D3D;
-}
 
